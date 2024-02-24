@@ -1,0 +1,38 @@
+EX_ADVANCED_GOLD_PAN:
+  item_group: EXAMPLE
+  item:
+    material: FURNACE
+    name: "&b&l超级&7淘金机"
+    lore:
+      - "&7一个更加快的淘金机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: ELECTRIC_SMELTERY
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: full_slimefun
+      material: GOLD_PAN
+    4:
+      material_type: full_slimefun
+      material: ELECTRIC_MOTOR
+    5:
+      material_type: full_slimefun
+      material: ELECTRIC_GOLD_PAN_3
+    6:
+      material_type: full_slimefun
+      material: ELECTRIC_MOTOR
+    7:
+      material_type: full_slimefun
+      material: COBALT_INGOT
+    8:
+      material_type: full_slimefun
+      material: BLISTERING_INGOT_3
+    9:
+      material_type: full_slimefun
+      material: COBALT_INGOT
