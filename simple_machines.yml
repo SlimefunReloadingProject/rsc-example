@@ -1,5 +1,5 @@
 EX_ADVANCED_GOLD_PAN:
-  item_group: EXAMPLE
+  item_group: example_sub_group
   item:
     material: FURNACE
     name: "&b&l超级&7淘金机"
