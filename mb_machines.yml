@@ -19,8 +19,8 @@ EXAMPLE_MULTIBLOCK_MACHINE:
     example:
       input:
         1:
-          material_type: full_slimefun
+          material_type: slimefun
           material: EXAMPLE_ITEM
       output:
-        material_type: full_slimefun
+        material_type: slimefun
         material: EXAMPLE_ITEM_2

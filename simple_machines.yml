@@ -16,23 +16,23 @@ EX_ADVANCED_GOLD_PAN:
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     2:
-      material_type: full_slimefun
+      material_type: slimefun
       material: GOLD_PAN
     4:
-      material_type: full_slimefun
+      material_type: slimefun
       material: ELECTRIC_MOTOR
     5:
-      material_type: full_slimefun
+      material_type: slimefun
       material: ELECTRIC_GOLD_PAN_3
     6:
-      material_type: full_slimefun
+      material_type: slimefun
       material: ELECTRIC_MOTOR
     7:
-      material_type: full_slimefun
+      material_type: slimefun
       material: COBALT_INGOT
     8:
-      material_type: full_slimefun
+      material_type: slimefun
       material: BLISTERING_INGOT_3
     9:
-      material_type: full_slimefun
+      material_type: slimefun
       material: COBALT_INGOT

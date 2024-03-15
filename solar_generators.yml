@@ -13,17 +13,17 @@ EXAMPLE_SOLAR_GENERATOR:
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
-      material_type: full_slimefun
+      material_type: slimefun
       material: EXAMPLE_ITEM
     3:
-      material_type: full_slimefun
+      material_type: slimefun
       material: EXAMPLE_ITEM_2
     5:
-      material_type: full_slimefun
+      material_type: slimefun
       material: EXAMPLE_MACHINE
     7:
-      material_type: full_slimefun
+      material_type: slimefun
       material: EXAMPLE_ITEM_2
     9:
-      material_type: full_slimefun
+      material_type: slimefun
       material: EXAMPLE_ITEM

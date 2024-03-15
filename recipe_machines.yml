@@ -6,10 +6,10 @@ EXAMPLE_RECIPE_MACHINE:
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
-      material_type: full_slimefun
+      material_type: slimefun
       material: EXAMPLE_ITEM
     2:
-      material_type: full_slimefun
+      material_type: slimefun
       material: EXAMPLE_ITEM_2
   capacity: 1000
   input: [10,11]
@@ -21,23 +21,23 @@ EXAMPLE_RECIPE_MACHINE:
       seconds: 10
       input:
         1:
-          material_type: full_slimefun
+          material_type: slimefun
           material: EXAMPLE_ITEM
         #添加更多输入物品。。。
       output:
         1:
-          material_type: full_slimefun
+          material_type: slimefun
           material: EXAMPLE_ITEM_2
     example_2:
       seconds: 5
       input:
         1:
-          material_type: full_slimefun
+          material_type: slimefun
           material: EXAMPLE_ITEM_2
         #添加更多输入物品。。。
       output:
         1:
           chance: 10
-          material_type: full_slimefun
+          material_type: slimefun
           material: EXAMPLE_MACHINE
 
