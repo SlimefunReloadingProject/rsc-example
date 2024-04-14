@@ -19,3 +19,58 @@ EXAMPLE_ITEM_2:
     1:
       material_type: slimefun
       material: EXAMPLE_ITEM
+EXAMPLE_ITEM_3:
+  item_group: example_normal_group
+  item:
+    name: "&a示例物品3"
+    material: GOLD_INGOT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  energy_capacity: 1000
+  script: "example_item_3"
+  recipe:
+    1:
+      material_type: slimefun
+      material: EXAMPLE_ITEM  
+SYNTHETIC_STONE:
+  item_group: example_sub_group
+  item:
+    name: "&7人造石头"
+    material: STONE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: COBBLESTONE
+    2:
+      material: COBBLESTONE
+    4:
+      material_type: slimefun
+      material: STONE_CHUNK
+    5:    
+      material_type: slimefun
+      material: STONE_CHUNK
+  vanilla: true
+WITHER_PROOF_STONE:
+  item_group: example_sub_group
+  item:
+    name: "&7&l防凋零石头"
+    material: STONE
+  anti_wither: true  
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: COBBLESTONE
+    2:
+      material: COBBLESTONE
+    3:
+      material_type: slimefun
+      material: MOD_PLATE
+CHANGEABLE_DIRT:
+  item_group: example_normal_group
+  item:
+    name: "&6&l可变泥土"
+    material: DIRT
+  rainbow: CUSTOM
+  rainbow_materials:
+    - DIRT      
+    - GRASS_BLOCK
+    - PODZOL  

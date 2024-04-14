@@ -1,0 +1,25 @@
+example_armor:
+  protection_types:
+    - BEES
+    - RADIATION
+    - FLYING_INTO_WALL
+  fullSet: true
+  item_group: example_normal_group
+  helmet:
+    id: EXAMPLE_HELMET
+    material: LEATHER_HELMET
+    name: "&d示例头盔"
+  chestplate:
+    id: EXAMPLE_CHESTPLATE
+    material: LEATHER_CHESTPLATE
+    name: "&d示例胸甲"
+  leggings:
+    id: EXAMPLE_LEGGINGS
+    material: LEATHER_LEGGINGS
+    name: "&d示例护腿"
+  boots:
+    id: EXAMPLE_BOOTS
+    material: LEATHER_BOOTS
+    name: "&d示例靴子"
+    potion_effects:
+      - "SPEED 5"
