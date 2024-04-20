@@ -69,6 +69,8 @@ CHANGEABLE_DIRT:
   item:
     name: "&6&l可变泥土"
     material: DIRT
+  piglin_trade:
+    piglin_trade_chance: 10
   rainbow: CUSTOM
   rainbow_materials:
     - DIRT      
