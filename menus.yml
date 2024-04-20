@@ -43,10 +43,10 @@ EXAMPLE_MATERIAL_GENERATOR:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
     #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
-    5-11:
+    5-12:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
-    13-17:
+    14-17:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
 EXAMPLE_RECIPE_MACHINE:
