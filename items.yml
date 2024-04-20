@@ -33,6 +33,7 @@ EXAMPLE_ITEM_3:
       material: EXAMPLE_ITEM2
 SYNTHETIC_STONE:
   item_group: example_sub_group
+  placeable: false
   item:
     name: "&7人造石头"
     material: STONE
