@@ -8,7 +8,7 @@ EXAMPLE_GEO_RESOURCE:
   obtain_from_geo_miner: true
   geo_name: "RSC示例GEO资源"
   supply:
-    world:
+    normal:
       plains: 10
       ocean: 5
       others: 4

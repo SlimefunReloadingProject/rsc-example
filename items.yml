@@ -30,9 +30,10 @@ EXAMPLE_ITEM_3:
   recipe:
     1:
       material_type: slimefun
-      material: EXAMPLE_ITEM  
+      material: EXAMPLE_ITEM2
 SYNTHETIC_STONE:
   item_group: example_sub_group
+  placeable: false
   item:
     name: "&7人造石头"
     material: STONE
@@ -69,6 +70,8 @@ CHANGEABLE_DIRT:
   item:
     name: "&6&l可变泥土"
     material: DIRT
+  piglin_trade:
+    piglin_trade_chance: 10
   rainbow: CUSTOM
   rainbow_materials:
     - DIRT      

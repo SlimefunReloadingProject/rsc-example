@@ -4,7 +4,12 @@ EXAMPLE_MATERIAL_GENERATOR:
     name: "&c示例材料生成器"
     material: IRON_BLOCK
   capacity: 10000
-  output: [12]
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: EXAMPLE_ITEM3
+  output: [13]
   outputItem:
     material_type: slimefun
     material: EXAMPLE_ITEM
