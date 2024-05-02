@@ -42,7 +42,7 @@ EXAMPLE_MATERIAL_GENERATOR:
     0-3:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
-    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    # 注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置，你可以在材料生成器的配置中修改 `status` 参数
     5-12:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
