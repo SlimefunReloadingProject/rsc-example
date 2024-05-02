@@ -23,21 +23,25 @@ EXAMPLE_RECIPE_MACHINE:
         1:
           material_type: slimefun
           material: EXAMPLE_ITEM
-        #添加更多输入物品。。。
+        #可添加更多输入物品
       output:
         1:
           material_type: slimefun
           material: EXAMPLE_ITEM_2
     example_2:
       seconds: 5
+      chooseOne: true
       input:
         1:
           material_type: slimefun
           material: EXAMPLE_ITEM_2
-        #添加更多输入物品。。。
+        #可添加更多输入物品
       output:
         1:
           chance: 10
           material_type: slimefun
           material: EXAMPLE_MACHINE
-
+        2:
+          chance: 15
+          material_type: slimefun
+          material: EXAMPLE_ITEM

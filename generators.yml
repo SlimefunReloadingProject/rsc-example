@@ -27,7 +27,7 @@ EXAMPLE_GENERATOR:
   fuels:
     example_fuel:
       item:
-        material: OAK_LOG
+        material: OAK_WOOD
       seconds: 10
       output:
         material: CHARCOAL

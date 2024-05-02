@@ -64,7 +64,7 @@ WITHER_PROOF_STONE:
       material: COBBLESTONE
     3:
       material_type: slimefun
-      material: MOD_PLATE
+      material: MOD_PLATE_DUMMY # 来自匠魂，未安装此附属会自动转为石头
 CHANGEABLE_DIRT:
   item_group: example_normal_group
   item:
