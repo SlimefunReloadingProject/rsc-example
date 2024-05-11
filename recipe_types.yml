@@ -1,6 +1,7 @@
-EXAMPLE_RECIPE_TYPE:
-  material: "DIAMOND_BLOCK"
-  name: "&e示例配方类型"
-EXAMPLE_MULTIBLOCK_MACHINE_RECIPE_TYPE:
-  name: "&b示例多方块机器"
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/recipe_type
+DROP_FROM_BLOCK:
+  material: GOLDEN_PICKAXE
+  name: "&e挖掘方块掉落此物品"
+RSC_EXAMPLE_MULTIBLOCK_MACHINE_RECIPE_TYPE:
   material: CRAFTING_TABLE
+  name: "&e在示例多方块机器中制作此物品"

@@ -4,12 +4,12 @@ function tick(info) {
     }
 }
 
-function onPlace(e) {
-    var player = e.getPlayer();
-    sendMessage(player, "Block placed");
+function onPlace(event) {
+    var player = event.getPlayer();
+    sendMessage(player, "方块被放置");
 }
 
-function onBreak(e, item, drops) {
-    var player = e.getPlayer();
-    sendMessage(player, "Block broke");
+function onBreak(event, itemStack, drops) {
+    var player = event.getPlayer();
+    sendMessage(player, "方块被破坏");
 }

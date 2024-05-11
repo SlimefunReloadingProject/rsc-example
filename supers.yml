@@ -1,0 +1,39 @@
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/supers
+RSC_EXAMPLE_SUPER_CARBON_PRESS:
+  item_group: rsc_example_sub_group
+  item:
+    material: FURNACE
+    name: "&b&l超级&7碳压机"
+  class: "io.github.thebusybiscuit.slimefun4.implementation.items.electric.machines.CarbonPress"
+  method:
+    setCapacity: 50000
+    setProcessingSpeed: 20
+  register:
+    unfinished: true
+
+RSC_EXAMPLE_SUPER_ITEM:
+  item_group: rsc_example_sub_group
+  item:
+    material: MUSIC_DISC_PIGSTEP
+    name: "&b&l超级&7存储元件"
+    lore:
+      - "&e继承测试"
+  class: "me.ddggdd135.slimeae.core.slimefun.MEItemStorageCell" # 来自 SlimeAE
+  args: [50000]
+  register:
+    conditions:
+    - "hasplugin SlimeAE"
+    unfinished: true
+
+RSC_SUPER_GEO_QUARRY:
+  item_group: rsc_example_sub_group
+  item:
+    material: FURNACE
+    name: "&b&l超级&7GEO矿机"
+  class: "io.github.mooy1.infinityexpansion.items.machines.GeoQuarry"
+  field:
+    ticksPerOutput: 2
+  register:
+    conditions:
+    - "hasplugin InfinityExpansion"
+    unfinished: true
