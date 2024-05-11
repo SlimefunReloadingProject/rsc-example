@@ -1,5 +1,6 @@
-EX_ADVANCED_GOLD_PAN:
-  item_group: example_sub_group
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/simple_machines
+RSC_EX_ADVANCED_GOLD_PAN:
+  item_group: rsc_example_sub_group
   item:
     material: FURNACE
     name: "&b&l超级&7淘金机"
@@ -8,7 +9,7 @@ EX_ADVANCED_GOLD_PAN:
       - ""
       - "&8⇨ &e⚡ &7速度: 50x"
       - "&8⇨ &e⚡ &71,000 J/s"
-  type: ELECTRIC_SMELTERY
+  type: ELECTRIC_GOLD_PAN
   settings:
     capacity: 5000
     consumption: 1000

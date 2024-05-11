@@ -1,6 +1,7 @@
-EXAMPLE_MOB_DROP:
-  item_group: example_sub_group
-  entity: IRON_GOLEM
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/mob_drops
+RSC_EXAMPLE_MOB_DROP:
+  item_group: rsc_example_sub_group
+  entity: BAT
   chance: 60
   item:
     name: "&a示例生物掉落物品"

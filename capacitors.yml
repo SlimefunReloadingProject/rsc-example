@@ -1,14 +1,12 @@
-EXAMPLE_CAPACITOR:
-  item_group: example_sub_group
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/capacitors
+RSC_EXAMPLE_CAPACITOR:
+  item_group: rsc_example_sub_group
   item:
     name: "&a示例电容"
     material: DIAMOND_BLOCK
   recipe_type: ENHANCED_CRAFTING_TABLE
   capacity: 10000
   recipe:
-    1:
-      material: APPLE
-      amount: 1
-    2:
+    5:
       material_type: slimefun
-      material: EXAMPLE_ITEM
+      material: RSC_EXAMPLE_RAINBOW_BLOCK_1

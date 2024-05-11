@@ -1,16 +1,12 @@
-EXAMPLE_MULTIBLOCK_MACHINE:
-  item_group: example_normal_group
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/multi-block-machine
+RSC_EXAMPLE_MULTIBLOCK_MACHINE:
+  item_group: rsc_example_sub_group
   item:
     name: "&b示例多方块机器"
     material: CRAFTING_TABLE
   recipe:
-    #按照这个设置
-    #1 2 3
-    #4 5 6
-    #7 8 9
     5:
       material: OAK_FENCE_GATE
-    #不要漏发射器
     8:
       material: DISPENSER
   work: 5
@@ -20,42 +16,39 @@ EXAMPLE_MULTIBLOCK_MACHINE:
       input:
         1:
           material_type: slimefun
-          material: EXAMPLE_ITEM
-        2:
-          material_type: slimefun
-          material: EXAMPLE_MACHINE
+          material: RSC_EXAMPLE_RECIPED_ITEM_3
       output:
         material_type: slimefun
-        material: EXAMPLE_ITEM_2
+        material: RSC_EXAMPLE_RECIPED_ITEM_4
     helmet:
       input:
         3:
           material_type: slimefun
-          material: EXAMPLE_ITEM_2
+          material: RSC_EXAMPLE_RECIPED_ITEM_4
       output:
         material_type: slimefun
-        material: EXAMPLE_HELMET
+        material: RSC_EXAMPLE_HELMET
     chestplate:
       input:
         4:
           material_type: slimefun
-          material: EXAMPLE_ITEM_2
+          material: RSC_EXAMPLE_RECIPED_ITEM_4
       output:
         material_type: slimefun
-        material: EXAMPLE_CHESTPLATE
+        material: RSC_EXAMPLE_CHESTPLATE
     leggings:
       input:
         5:
           material_type: slimefun
-          material: EXAMPLE_ITEM_2
+          material: RSC_EXAMPLE_RECIPED_ITEM_4
       output:
         material_type: slimefun
-        material: EXAMPLE_LEGGINGS
+        material: RSC_EXAMPLE_LEGGINGS
     boots:
       input:
         6:
           material_type: slimefun
-          material: EXAMPLE_ITEM_2
+          material: RSC_EXAMPLE_RECIPED_ITEM_4
       output:
         material_type: slimefun
-        material: EXAMPLE_BOOTS
+        material: RSC_EXAMPLE_BOOTS

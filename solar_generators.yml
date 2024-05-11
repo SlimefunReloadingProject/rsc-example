@@ -1,5 +1,6 @@
-EXAMPLE_SOLAR_GENERATOR:
-  item_group: example_normal_group
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/solar_generators
+RSC_EXAMPLE_SOLAR_GENERATOR:
+  item_group: rsc_example_sub_group
   item:
     name: "&c示例太阳能发电机"
     material: GOLD_BLOCK
@@ -10,20 +11,3 @@ EXAMPLE_SOLAR_GENERATOR:
   dayEnergy: 1000
   nightEnergy: 100
   lightLevel: 14
-  recipe_type: ENHANCED_CRAFTING_TABLE
-  recipe:
-    1:
-      material_type: slimefun
-      material: EXAMPLE_ITEM
-    3:
-      material_type: slimefun
-      material: EXAMPLE_ITEM_2
-    5:
-      material_type: slimefun
-      material: EXAMPLE_MACHINE
-    7:
-      material_type: slimefun
-      material: EXAMPLE_ITEM_2
-    9:
-      material_type: slimefun
-      material: EXAMPLE_ITEM

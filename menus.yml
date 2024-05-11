@@ -1,23 +1,24 @@
-EXAMPLE_MACHINE:
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/menu
+RSC_EXAMPLE_MACHINE:
   title: "&a示例菜单"
   script: "example_menu"
   slots:
     0-8:
-     name: "&a"
-     material: BLACK_STAINED_GLASS_PANE
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
     18-30:
-     name: "&a"
-     material: BLACK_STAINED_GLASS_PANE
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
     32-39:
-     name: "&a"
-     material: BLACK_STAINED_GLASS_PANE
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
     40:
-     name: "&a一个工作按钮"
-     material: GREEN_STAINED_GLASS_PANE   
+      name: "&a一个工作按钮"
+      material: GREEN_STAINED_GLASS_PANE   
     41-44:
-     name: "&a"
-     material: BLACK_STAINED_GLASS_PANE
-EXAMPLE_GENERATOR:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+RSC_EXAMPLE_GENERATOR:
   title: "&c示例发电机"
   slots:
     0-3:
@@ -36,7 +37,7 @@ EXAMPLE_GENERATOR:
     17-26:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
-EXAMPLE_MATERIAL_GENERATOR:
+RSC_EXAMPLE_MATERIAL_GENERATOR:
   title: "&d示例材料生成器"
   slots:
     0-3:
@@ -49,7 +50,7 @@ EXAMPLE_MATERIAL_GENERATOR:
     14-17:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
-EXAMPLE_RECIPE_MACHINE:
+RSC_EXAMPLE_RECIPE_MACHINE:
   title: "&c示例配方机器"
   slots:
     0-3:
