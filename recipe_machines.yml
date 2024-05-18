@@ -3,7 +3,7 @@ RSC_EXAMPLE_RECIPE_MACHINE:
   item_group: rsc_example_sub_group
   item:
     name: "&e示例配方机器"
-    material: GREEN_STAINED_GLASS
+    material: beacon
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -13,8 +13,8 @@ RSC_EXAMPLE_RECIPE_MACHINE:
       material_type: slimefun
       material: RSC_EXAMPLE_RECIPED_ITEM_6
   capacity: 1000
-  input: [10,11]
-  output: [15,16]
+  input: [10, 11]
+  output: [15, 16]
   energyPerCraft: 100
   speed: 2
   recipes:
@@ -31,15 +31,15 @@ RSC_EXAMPLE_RECIPE_MACHINE:
           material: RSC_EXAMPLE_RECIPED_ITEM_6
     example_2:
       seconds: 5
-      chooseOne: true
       input:
         1:
           material_type: slimefun
           material: RSC_EXAMPLE_RECIPED_ITEM_6
         #可添加更多输入物品
+      chooseOne: true # 选择以下其中1个物品输出
       output:
         1:
-          chance: 10
+          chance: 10 # 设置概率
           material_type: slimefun
           material: RSC_EXAMPLE_MACHINE
         2:

@@ -2,57 +2,63 @@
 RSC_EXAMPLE_PLACEHOLDER_1:
   item_group: rsc_example_normal_group
   item:
-    name: "占位符1"
+    name: "&e占位符1"
     material: BLUE_STAINED_GLASS_PANE
 
 RSC_EXAMPLE_PLACEHOLDER_2:
   item_group: rsc_example_sub_group
   item:
-    name: "占位符2"
+    name: "&e占位符2"
     material: BLUE_STAINED_GLASS_PANE
 
 RSC_EXAMPLE_PLACEHOLDER_3:
   item_group: rsc_example_seasonal_group
   item:
-    name: "占位符3"
+    name: "&e占位符3"
     material: BLUE_STAINED_GLASS_PANE
 
 RSC_EXAMPLE_PLACEHOLDER_4:
   item_group: rsc_example_locked_group
   item:
-    name: "占位符4"
+    name: "&e占位符4"
     material: BLUE_STAINED_GLASS_PANE
 
 RSC_EXAMPLE_PLACEHOLDER_5:
   item_group: rsc_example_link_group
   item:
-    name: "占位符5"
+    name: "&e占位符5"
     material: BLUE_STAINED_GLASS_PANE
 
 RSC_EXAMPLE_PLACEHOLDER_6:
   item_group: rsc_example_console_group
   item:
-    name: "占位符6"
+    name: "&e占位符6"
     material: BLUE_STAINED_GLASS_PANE
 
 RSC_EXAMPLE_PLACEHOLDER_7:
   item_group: rsc_example_tier_1_group
   item:
-    name: "占位符7"
+    name: "&e占位符7"
     material: BLUE_STAINED_GLASS_PANE
 
 RSC_EXAMPLE_PLACEHOLDER_8:
   item_group: rsc_example_tier_2_group
   item:
-    name: "占位符8"
+    name: "&e占位符8"
+    material: BLUE_STAINED_GLASS_PANE
+
+RSC_EXAMPLE_PLACEHOLDER_9:
+  item_group: rsc_example_tier_10086_group
+  item:
+    name: "&e占位符9"
     material: BLUE_STAINED_GLASS_PANE
 
 RSC_EXAMPLE_LATEINIT_ITEM_1:
   lateInit: true
   item_group: rsc_example_sub_group
   item:
-    name: "延时加载物品 1"
-    material: stick
+    name: "&e延时加载物品 1"
+    material: soul_lantern
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     5:
@@ -62,8 +68,8 @@ RSC_EXAMPLE_LATEINIT_ITEM_1:
 RSC_EXAMPLE_RECIPED_ITEM_1:
   item_group: rsc_example_sub_group
   item:
-    name: "可合成物品 1"
-    material: stick
+    name: "&e自定义配方类型物品 1"
+    material: crafting_table
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -78,8 +84,8 @@ RSC_EXAMPLE_RECIPED_ITEM_1:
 RSC_EXAMPLE_RECIPED_ITEM_2:
   item_group: rsc_example_sub_group
   item:
-    name: "可合成物品 2"
-    material: stick
+    name: "&e自定义配方类型物品 2"
+    material: anvil
   recipe_type: ARMOR_FORGE
   recipe:
     1:
@@ -95,8 +101,8 @@ RSC_EXAMPLE_RECIPED_ITEM_2:
 RSC_EXAMPLE_RECIPED_ITEM_3:
   item_group: rsc_example_sub_group
   item:
-    name: "可合成物品 3"
-    material: stick
+    name: "&e自定义配方类型物品 3"
+    material: dispenser
   recipe_type: GRIND_STONE
   recipe:
     1:
@@ -106,8 +112,8 @@ RSC_EXAMPLE_RECIPED_ITEM_3:
 RSC_EXAMPLE_RECIPED_ITEM_4:
   item_group: rsc_example_sub_group
   item:
-    name: "可合成物品 4"
-    material: stick
+    name: "&e自定义配方类型物品 4"
+    material: furnace
   recipe_type: SMELTERY
   recipe:
     1:
@@ -120,8 +126,8 @@ RSC_EXAMPLE_RECIPED_ITEM_4:
 RSC_EXAMPLE_RECIPED_ITEM_5:
   item_group: rsc_example_sub_group
   item:
-    name: "可合成物品 5"
-    material: stick
+    name: "&e自定义配方类型物品 5"
+    material: dispenser
   recipe_type: ORE_CRUSHER
   recipe:
     1:
@@ -131,8 +137,8 @@ RSC_EXAMPLE_RECIPED_ITEM_5:
 RSC_EXAMPLE_RECIPED_ITEM_6:
   item_group: rsc_example_sub_group
   item:
-    name: "可合成物品 6"
-    material: stick
+    name: "&e自定义配方类型物品 6"
+    material: piston
   recipe_type: COMPRESSOR
   recipe:
     1:
@@ -142,8 +148,8 @@ RSC_EXAMPLE_RECIPED_ITEM_6:
 RSC_EXAMPLE_RECIPED_ITEM_7:
   item_group: rsc_example_sub_group
   item:
-    name: "可合成物品 7"
-    material: stick
+    name: "&e自定义配方类型物品 7"
+    material: glass
   recipe_type: PRESSURE_CHAMBER
   recipe:
     1:
@@ -153,8 +159,8 @@ RSC_EXAMPLE_RECIPED_ITEM_7:
 RSC_EXAMPLE_RECIPED_ITEM_8:
   item_group: rsc_example_sub_group
   item:
-    name: "可合成物品 8"
-    material: stick
+    name: "&e自定义配方类型物品 8"
+    material: cauldron
   recipe_type: ORE_WASHER
   recipe:
     1:
@@ -164,8 +170,8 @@ RSC_EXAMPLE_RECIPED_ITEM_8:
 RSC_EXAMPLE_RECIPED_ITEM_9:
   item_group: rsc_example_sub_group
   item:
-    name: "可合成物品 9"
-    material: stick
+    name: "&e自定义配方类型物品 9"
+    material: crafting_table
   recipe_type: MAGIC_WORKBENCH
   recipe:
     1:
@@ -175,8 +181,8 @@ RSC_EXAMPLE_RECIPED_ITEM_9:
 RSC_EXAMPLE_RECIPED_ITEM_10:
   item_group: rsc_example_sub_group
   item:
-    name: "可合成物品 10"
-    material: stick
+    name: "&e自定义配方类型物品 10"
+    material: enchanting_table
   recipe_type: ANCIENT_ALTAR
   recipe:
     1:
@@ -198,10 +204,10 @@ RSC_EXAMPLE_RECIPED_ITEM_10:
     9:
       material: birch_planks
 
-RSC_EXAMPLE_NOT_RECIPED_ITEM_1:
+RSC_EXAMPLE_RECIPED_ITEM_11:
   item_group: rsc_example_sub_group
   item:
-    name: "不可合成物品 1"
+    name: "&e自定义配方类型物品 11"
     material: stick
   recipe_type: NULL
   recipe:
@@ -224,11 +230,153 @@ RSC_EXAMPLE_NOT_RECIPED_ITEM_1:
     9:
       material: birch_planks
 
+RSC_EXAMPLE_RECIPED_ITEM_12:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自定义配方类型物品 12"
+    material: bowl
+  recipe_type: GOLD_PAN
+  recipe:
+    1:
+      material: jungle_planks
+
+RSC_EXAMPLE_RECIPED_ITEM_13:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自定义配方类型物品 13"
+    material: bricks
+  recipe_type: MULTIBLOCK
+  recipe:
+    1:
+      material: jungle_planks
+
+RSC_EXAMPLE_RECIPED_ITEM_14:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自定义配方类型物品 14"
+    material: glass_bottle
+  recipe_type: JUICER
+  recipe:
+    1:
+      material: jungle_planks
+
+RSC_EXAMPLE_RECIPED_ITEM_15:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自定义配方类型物品 15"
+    material: iron_sword
+  recipe_type: MOB_DROP
+  recipe:
+    1:
+      material: jungle_planks
+
+RSC_EXAMPLE_RECIPED_ITEM_16:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自定义配方类型物品 16"
+    material: gold_ingot
+  recipe_type: BARTER_DROP
+  recipe:
+    1:
+      material: jungle_planks
+
+RSC_EXAMPLE_RECIPED_ITEM_17:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自定义配方类型物品 17"
+    material: player_head
+  recipe_type: INTERACT
+  recipe:
+    1:
+      material: jungle_planks
+
+RSC_EXAMPLE_RECIPED_ITEM_18:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自定义配方类型物品 18"
+    material: light_gray_stained_glass
+  recipe_type: HEATED_PRESSURE_CHAMBER
+  recipe:
+    1:
+      material: jungle_planks
+
+RSC_EXAMPLE_RECIPED_ITEM_19:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自定义配方类型物品 19"
+    material: green_stained_glass
+  recipe_type: FOOD_FABRICATOR
+  recipe:
+    1:
+      material: jungle_planks
+
+RSC_EXAMPLE_RECIPED_ITEM_20:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自定义配方类型物品 20"
+    material: stick
+  # 无 recipe_type
+  recipe:
+    8:
+      material: jungle_planks
+
+RSC_EXAMPLE_RECIPED_ITEM_21:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自定义配方类型物品 21"
+    material: green_terracotta
+  recipe_type: FOOD_COMPOSTER
+  recipe:
+    1:
+      material: jungle_planks
+
+RSC_EXAMPLE_RECIPED_ITEM_22:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自定义配方类型物品 22"
+    material: light_blue_stained_glass
+  recipe_type: FREEZER
+  recipe:
+    1:
+      material: jungle_planks
+
+RSC_EXAMPLE_RECIPED_ITEM_23:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自定义配方类型物品 23"
+    material: piston
+  recipe_type: REFINERY
+  recipe:
+    1:
+      material: jungle_planks
+
+RSC_EXAMPLE_RECIPED_ITEM_24:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自定义配方类型物品 24"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM3NzQxZjc2NGRkM2RkN2FkYWViNDNiNjNkMzk1OWViNzBlNWViMjhmMTVkNmIzNGNhYjM0YTFkMWY2MDM4NyJ9fX0=
+  recipe_type: GEO_MINER
+  recipe:
+    1:
+      material: jungle_planks
+
+RSC_EXAMPLE_RECIPED_ITEM_25:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自定义配方类型物品 25"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE1ZGUwYmMyYmZiNWNjMmQyM2ViNzJmOTY0MDJhZGE0Nzk1MjRkZDBkZTQwNGJjMjNiNmRhY2VlM2ZmZDA4MCJ9fX0=
+  recipe_type: NUCLEAR_REACTOR
+  recipe:
+    1:
+      material: jungle_planks
+
 RSC_EXAMPLE_CHARGEABLE_ITEM_1:
   item_group: rsc_example_sub_group
   item:
-    name: "可充电物品 1"
-    material: stick
+    name: "&e可充电物品 1"
+    material: iron_ingot
   energy_capacity: 512
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -239,10 +387,10 @@ RSC_EXAMPLE_CHARGEABLE_ITEM_1:
 RSC_EXAMPLE_CHARGEABLE_ITEM_2:
   item_group: rsc_example_sub_group
   item:
-    name: "可充电物品 2"
-    material: stick
+    name: "&e可充电物品 2"
+    material: gold_ingot
     lore: 
-    - '加入了脚本！'
+    - '&e加入了脚本！'
   energy_capacity: 20480
   script: example_chargeable_item
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -254,8 +402,8 @@ RSC_EXAMPLE_CHARGEABLE_ITEM_2:
 RSC_EXAMPLE_RADIATION_ITEM_1:
   item_group: rsc_example_sub_group
   item:
-    name: "带辐射物品 1"
-    material: stick
+    name: "&e带辐射物品 1"
+    material: cyan_wool
   radiation: MODERATE
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -266,8 +414,8 @@ RSC_EXAMPLE_RADIATION_ITEM_1:
 RSC_EXAMPLE_RAINBOW_BLOCK_1:
   item_group: rsc_example_sub_group
   item:
-    name: "彩虹方块 1"
-    material: DIAMOND_BLOCK
+    name: "&e彩虹方块 1"
+    material: glowstone
   rainbow: STAINED_GLASS
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -278,14 +426,14 @@ RSC_EXAMPLE_RAINBOW_BLOCK_1:
 RSC_EXAMPLE_RAINBOW_BLOCK_2:
   item_group: rsc_example_sub_group
   item:
-    name: "彩虹方块 2"
-    material: DIAMOND_BLOCK
+    name: "&e彩虹方块 2"
+    material: shroomlight
   rainbow: CUSTOM
   rainbow_materials:
-  - GRASS_BLOCK
-  - DIRT
-  - PODZOL
-  - MOSS_BLOCK
+  - grass_block
+  - dirt
+  - beacon
+  - moss_block
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -295,8 +443,8 @@ RSC_EXAMPLE_RAINBOW_BLOCK_2:
 RSC_EXAMPLE_ANIT_WITHER_BLOCK_1:
   item_group: rsc_example_sub_group
   item:
-    name: "防凋灵方块 1"
-    material: GOLD_BLOCK
+    name: "&e防凋灵方块 1"
+    material: polished_deepslate
   anti_wither: true
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -307,8 +455,8 @@ RSC_EXAMPLE_ANIT_WITHER_BLOCK_1:
 RSC_EXAMPLE_SOULBOUND_ITEM_1:
   item_group: rsc_example_sub_group
   item:
-    name: "灵魂绑定物品 1"
-    material: DIAMOND
+    name: "&e灵魂绑定物品 1"
+    material: iron_sword
   soulbound: true
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -319,7 +467,7 @@ RSC_EXAMPLE_SOULBOUND_ITEM_1:
 RSC_EXAMPLE_PIGLIN_TRADE_ITEM_1:
   item_group: rsc_example_sub_group
   item:
-    name: "猪灵交易物品 1"
+    name: "&e猪灵交易物品 1"
     material: NETHERITE_SWORD
   piglin_trade_chance: 10
   recipe_type: BARTER_DROP
@@ -327,7 +475,7 @@ RSC_EXAMPLE_PIGLIN_TRADE_ITEM_1:
 RSC_EXAMPLE_VANILLA_ITEM_1:
   item_group: rsc_example_sub_group
   item:
-    name: "人造物品 1"
+    name: "&e人造物品 1"
     material: iron_block
   vanilla: true
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -339,7 +487,7 @@ RSC_EXAMPLE_VANILLA_ITEM_1:
 RSC_EXAMPLE_HIDDEN_ITEM_1:
   item_group: rsc_example_sub_group
   item:
-    name: "隐藏物品 1"
+    name: "&e隐藏物品 1"
     material: nether_star
   hidden: true
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -351,7 +499,7 @@ RSC_EXAMPLE_HIDDEN_ITEM_1:
 RSC_EXAMPLE_DROP_FROM_BLOCK_ITEM_1:
   item_group: rsc_example_sub_group
   item:
-    name: "方块掉落物品 1"
+    name: "&e方块掉落物品 1"
     material: ink_sac
   drop_from: cobblestone
   drop_chance: 5
@@ -361,10 +509,23 @@ RSC_EXAMPLE_DROP_FROM_BLOCK_ITEM_1:
     5:
       material: cobblestone
 
+RSC_EXAMPLE_DROP_FROM_BLOCK_ITEM_2:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e方块掉落物品 2"
+    material: glow_ink_sac
+  drop_from: stone
+  drop_chance: 5
+  drop_amount: 3-5
+  recipe_type: DROP_FROM_BLOCK
+  recipe:
+    5:
+      material: stone
+
 RSC_EXAMPLE_RESEARCH_ITEM_1:
   item_group: rsc_example_sub_group
   item:
-    name: "研究解锁物品 1"
+    name: "&e研究解锁物品 1"
     material: nether_star
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -372,22 +533,46 @@ RSC_EXAMPLE_RESEARCH_ITEM_1:
       material_type: slimefun
       material: RSC_EXAMPLE_RECIPED_ITEM_10
 
-RSC_EXAMPLE_SAVED_ITEM_1:
+RSC_EXAMPLE_SAVEDITEM_1:
   item_group: rsc_example_sub_group
   item:
-    name: "保存物品 1"
+    name: "&e保存物品 1"
     material_type: saveditem
-    material: example_saveditem
+    material: example_saveditem1
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
       material_type: slimefun
       material: RSC_EXAMPLE_RESEARCH_ITEM_1
 
+RSC_EXAMPLE_SAVEDITEM_2:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e保存物品 2"
+    material_type: saveditem
+    material: example_saveditem2
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: RSC_EXAMPLE_SAVEDITEM_1
+
+RSC_EXAMPLE_SAVEDITEM_3:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e保存物品 3"
+    material_type: saveditem
+    material: example_saveditem3
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: RSC_EXAMPLE_SAVEDITEM_2
+
 RSC_EXAMPLE_SKULL_ITEM_1:
   item_group: rsc_example_sub_group
   item:
-    name: "头颅物品 1"
+    name: "&e头颅物品 1"
     material_type: skull_hash
     material: bb0f722aec27490cf056f560afdd457a0a794e703556cc4c3b51a582f5c57aa4
     lore:
@@ -401,7 +586,7 @@ RSC_EXAMPLE_SKULL_ITEM_1:
 RSC_EXAMPLE_SKULL_ITEM_2:
   item_group: rsc_example_sub_group
   item:
-    name: "头颅物品 2"
+    name: "&e头颅物品 2"
     material_type: skull_url
     material: http://textures.minecraft.net/texture/bb0f722aec27490cf056f560afdd457a0a794e703556cc4c3b51a582f5c57aa4
     lore:
@@ -415,7 +600,7 @@ RSC_EXAMPLE_SKULL_ITEM_2:
 RSC_EXAMPLE_SKULL_ITEM_3:
   item_group: rsc_example_sub_group
   item:
-    name: "头颅物品 3"
+    name: "&e头颅物品 3"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmIwZjcyMmFlYzI3NDkwY2YwNTZmNTYwYWZkZDQ1N2EwYTc5NGU3MDM1NTZjYzRjM2I1MWE1ODJmNWM1N2FhNCJ9fX0=
     lore:
@@ -429,8 +614,8 @@ RSC_EXAMPLE_SKULL_ITEM_3:
 RSC_EXAMPLE_SCRIPT_ITEM_1:
   item_group: rsc_example_sub_group
   item:
-    name: "脚本物品 1"
-    material: stick
+    name: "&e脚本物品 1"
+    material: redstone
   script: example_script_item
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -438,26 +623,14 @@ RSC_EXAMPLE_SCRIPT_ITEM_1:
       material_type: slimefun
       material: RSC_EXAMPLE_RESEARCH_ITEM_1
 
-RSC_EXAMPLE_WARN_ITEM_1:
-  lateInit: true
-  item_group: rsc_example_sub_group
-  item:
-    name: "警告测试物品 1"
-    material: stick
-  register:
-    warn: true
-    conditions:
-    - "version < 1.18.1"
-
 RSC_EXAMPLE_CONDITION_ITEM_1:
-  lateInit: true
   item_group: rsc_example_sub_group
   item:
-    name: "条件测试物品 1"
-    material: stick
+    name: "&e条件测试物品 1"
+    material: conduit
     lore:
-    - "conditions: "
-    - "存在插件 DynaTech"
+    - "&econditions: "
+    - "&e存在插件 DynaTech"
   register:
     conditions:
     - "hasplugin DynaTech"
@@ -468,14 +641,13 @@ RSC_EXAMPLE_CONDITION_ITEM_1:
       material: GROWTH_CHAMBER_MK2
 
 RSC_EXAMPLE_CONDITION_ITEM_2:
-  lateInit: true
   item_group: rsc_example_sub_group
   item:
-    name: "条件测试物品 2"
-    material: stick
+    name: "&e条件测试物品 2"
+    material: conduit
     lore:
-    - "conditions: "
-    - "不存在插件 DynaTech"
+    - "&econditions: "
+    - "&e不存在插件 DynaTech"
   register:
     conditions:
     - "!hasplugin DynaTech"
@@ -483,99 +655,81 @@ RSC_EXAMPLE_CONDITION_ITEM_2:
   recipe:
     2:
       material_type: slimefun
-      material: WITHER_ASSEMBLER
+      material: IRON_GOLEM_ASSEMBLER
 
 RSC_EXAMPLE_CONDITION_ITEM_3:
-  lateInit: true
   item_group: rsc_example_sub_group
   item:
-    name: "条件测试物品 3"
-    material: stick
+    name: "&e条件测试物品 3"
+    material: music_disc_stal
     lore:
-    - "conditions: "
-    - "版本 < 1.18.1"
+    - "&econditions: "
+    - "&e版本 < 1.18.1"
   register:
     conditions:
     - "version < 1.18.1"
 
 RSC_EXAMPLE_CONDITION_ITEM_4:
-  lateInit: true
   item_group: rsc_example_sub_group
   item:
-    name: "条件测试物品 4"
-    material: stick
+    name: "&e条件测试物品 4"
+    material: music_disc_stal
     lore:
-    - "conditions: "
-    - "版本 <= 1.18.1"
+    - "&econditions: "
+    - "&e版本 <= 1.18.1"
   register:
     conditions:
     - "version <= 1.18.1"
 
 RSC_EXAMPLE_CONDITION_ITEM_5:
-  lateInit: true
   item_group: rsc_example_sub_group
   item:
-    name: "条件测试物品 5"
-    material: stick
+    name: "&e条件测试物品 5"
+    material: music_disc_otherside
     lore:
-    - "conditions: "
-    - "版本 <= 1.18.1"
-  register:
-    conditions:
-    - "version <= 1.18.1"
-
-RSC_EXAMPLE_CONDITION_ITEM_6:
-  lateInit: true
-  item_group: rsc_example_sub_group
-  item:
-    name: "条件测试物品 6"
-    material: stick
-    lore:
-    - "conditions: "
-    - "版本 > 1.18.1"
+    - "&econditions: "
+    - "&e版本 > 1.18.1"
   register:
     conditions:
     - "version > 1.18.1"
 
-RSC_EXAMPLE_CONDITION_ITEM_7:
-  lateInit: true
+RSC_EXAMPLE_CONDITION_ITEM_6:
   item_group: rsc_example_sub_group
   item:
-    name: "条件测试物品 7"
-    material: stick
+    name: "&e条件测试物品 6"
+    material: music_disc_otherside
     lore:
-    - "conditions: "
-    - "版本 >= 1.18.1"
+    - "&econditions: "
+    - "&e版本 >= 1.18.1"
   register:
     conditions:
     - "version >= 1.18.1"
 
 RSC_EXAMPLE_VERSIONED_ITEM_1:
-  lateInit: true
   item_group: rsc_example_sub_group
   item:
-    name: "版本兼容测试物品 1"
+    name: "&e版本兼容测试物品 1"
     material: stick
     lore:
-    - "conditions: "
-    - "存在插件 InfinityExpansion"
+    - "&econditions: "
+    - "&e存在插件 InfinityExpansion"
   register:
     conditions:
     - "hasplugin InfinityExpansion"
   #recipe_type: NULL # 可省略，默认NULL
   recipe:
     1:
+      material_type: slimefun
       material: INFINITE_INGOT
 
-RSC_EXAMPLE_VERSIONED_ITEM_1:
-  lateInit: true
+RSC_EXAMPLE_VERSIONED_ITEM_2: # 与上一个物品相同id
   item_group: rsc_example_sub_group
   item:
-    name: "版本兼容测试物品 1"
+    name: "&e版本兼容测试物品 1"
     material: stick
     lore:
-    - "conditions: "
-    - "不存在插件 InfinityExpansion"
+    - "&econditions: "
+    - "&e不存在插件 InfinityExpansion"
   register:
     warn: true
     conditions:
@@ -585,11 +739,20 @@ RSC_EXAMPLE_VERSIONED_ITEM_1:
     1:
       material: mycelium
 
-RSC_EXAMPLE_UNFINISHED_ITEM_1:
-  lateInit: true
+RSC_EXAMPLE_WARN_ITEM_1:
   item_group: rsc_example_sub_group
   item:
-    name: "未完成测试物品 2"
-    material: stick
+    name: "&e警告测试物品 1"
+    material: yellow_wool
+  register:
+    warn: true
+    conditions:
+    - "version < 1.18.1"
+
+RSC_EXAMPLE_UNFINISHED_ITEM_1:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e未完成测试物品 1"
+    material: bedrock
   register:
     unfinished: true

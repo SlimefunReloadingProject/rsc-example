@@ -3,7 +3,7 @@ RSC_EXAMPLE_GENERATOR:
   item_group: rsc_example_sub_group
   item:
     name: "&c示例发电机"
-    material: GOLD_BLOCK
+    material: sea_lantern
   capacity: 100000
   production: 100
   input: [10,11]

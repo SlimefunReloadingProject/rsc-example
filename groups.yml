@@ -50,14 +50,6 @@ rsc_example_console_group:
   actions:
   - "console say 示例控制台指令组"
 
-rsc_example_tier_10086_group:
-  type: sub
-  parent: rsc_example_parent_group
-  tier: 10086
-  item:
-    name: "&e示例优先级10086组"
-    material: IRON_ORE
-
 rsc_example_tier_2_group:
   type: sub
   parent: rsc_example_parent_group
@@ -65,6 +57,14 @@ rsc_example_tier_2_group:
   item:
     name: "&e示例优先级2组"
     material: GOLD_ORE
+
+rsc_example_tier_10086_group:
+  type: sub
+  parent: rsc_example_parent_group
+  tier: 10086
+  item:
+    name: "&e示例优先级10086组"
+    material: IRON_ORE
 
 rsc_example_tier_1_group:
   type: sub

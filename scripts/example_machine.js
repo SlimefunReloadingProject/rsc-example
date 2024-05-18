@@ -1,6 +1,8 @@
 function tick(info) {
     if (working) {
-        setWorking(false);
+        if (randintC(1, 100) === 100){
+            setWorking(false);
+        }
     }
 }
 
