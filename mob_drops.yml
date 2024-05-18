@@ -5,4 +5,4 @@ RSC_EXAMPLE_MOB_DROP:
   chance: 60
   item:
     name: "&a示例生物掉落物品"
-    material: IRON_INGOT
+    material: leather

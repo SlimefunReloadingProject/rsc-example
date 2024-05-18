@@ -1,8 +1,38 @@
 # RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/simple_machines
-RSC_EX_ADVANCED_GOLD_PAN:
+RSC_EXAMPLE_ADVANCED_SMELTERY:
   item_group: rsc_example_sub_group
   item:
-    material: FURNACE
+    material: furnace
+    name: "&b&l超级&7冶炼炉"
+    lore:
+      - "&7一个更加快的冶炼炉"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: ELECTRIC_SMELTERY
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_FURNACE:
+  item_group: rsc_example_sub_group
+  item:
+    material: furnace
+    name: "&b&l超级&7电炉"
+    lore:
+      - "&7一个更加快的电炉"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: ELECTRIC_FURNACE
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_GOLD_PAN:
+  item_group: rsc_example_sub_group
+  item:
+    material: brown_terracotta
     name: "&b&l超级&7淘金机"
     lore:
       - "&7一个更加快的淘金机"
@@ -14,26 +44,334 @@ RSC_EX_ADVANCED_GOLD_PAN:
     capacity: 5000
     consumption: 1000
     speed: 50
-  recipe_type: ENHANCED_CRAFTING_TABLE
-  recipe:
-    2:
-      material_type: slimefun
-      material: GOLD_PAN
-    4:
-      material_type: slimefun
-      material: ELECTRIC_MOTOR
-    5:
-      material_type: slimefun
-      material: ELECTRIC_GOLD_PAN_3
-    6:
-      material_type: slimefun
-      material: ELECTRIC_MOTOR
-    7:
-      material_type: slimefun
-      material: COBALT_INGOT
-    8:
-      material_type: slimefun
-      material: BLISTERING_INGOT_3
-    9:
-      material_type: slimefun
-      material: COBALT_INGOT
+RSC_EXAMPLE_ADVANCED_DUST_WASHER:
+  item_group: rsc_example_sub_group
+  item:
+    material: blue_stained_glass
+    name: "&b&l超级&7洗矿机"
+    lore:
+      - "&7一个更加快的洗矿机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: ELECTRIC_DUST_WASHER
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_ELECTRIC_ORE_GRINDER:
+  item_group: rsc_example_sub_group
+  item:
+    material: furnace
+    name: "&b&l超级&7碎矿机"
+    lore:
+      - "&7一个更加快的碎矿机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: ELECTRIC_ORE_GRINDER
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_INGOT_FACTORY:
+  item_group: rsc_example_sub_group
+  item:
+    material: red_terracotta
+    name: "&b&l超级&7铸锭机"
+    lore:
+      - "&7一个更加快的铸锭机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: ELECTRIC_INGOT_FACTORY
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_INGOT_PULVERIZER:
+  item_group: rsc_example_sub_group
+  item:
+    material: furnace
+    name: "&b&l超级&7打粉机"
+    lore:
+      - "&7一个更加快的打粉机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: ELECTRIC_INGOT_PULVERIZER
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_CHARGING_BENCH:
+  item_group: rsc_example_sub_group
+  item:
+    material: crafting_table
+    name: "&b&l超级&7充电机"
+    lore:
+      - "&7一个更加快的充电机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: CHARGING_BENCH
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_TREE_GROWTH_ACCELERATOR:
+  item_group: rsc_example_sub_group
+  item:
+    material: brown_terracotta
+    name: "&b&l超级&7树木生长加速器"
+    lore:
+      - "&7一个更加快的树木生长加速器"
+      - ""
+      - "&8⇨ &e⚡ &7范围: 20"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: TREE_GROWTH_ACCELERATOR
+  settings:
+    capacity: 5000
+    consumption: 1000
+    radius: 20
+RSC_EXAMPLE_ADVANCED_ANIMAL_GROWTH_ACCELERATOR:
+  item_group: rsc_example_sub_group
+  item:
+    material: hay_block
+    name: "&b&l超级&7动物生长加速器"
+    lore:
+      - "&7一个更大范围的动物生长加速器"
+      - ""
+      - "&8⇨ &e⚡ &7范围: 20"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: ANIMAL_GROWTH_ACCELERATOR
+  settings:
+    capacity: 5000
+    consumption: 1000
+    radius: 20
+RSC_EXAMPLE_ADVANCED_CROP_GROWTH_ACCELERATOR:
+  item_group: rsc_example_sub_group
+  item:
+    material: green_terracotta
+    name: "&b&l超级&7作物生长加速器"
+    lore:
+      - "&7一个更大范围的作物生长加速器"
+      - ""
+      - "&8⇨ &e⚡ &7范围: 20"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: CROP_GROWTH_ACCELERATOR
+  settings:
+    capacity: 5000
+    consumption: 1000
+    radius: 20
+RSC_EXAMPLE_ADVANCED_FREEZER:
+  item_group: rsc_example_sub_group
+  item:
+    material: light_blue_stained_glass
+    name: "&b&l超级&7冰箱"
+    lore:
+      - "&7一个更快的冰箱"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: FREEZER
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_CARBON_PRESS:
+  item_group: rsc_example_sub_group
+  item:
+    material: black_stained_glass
+    name: "&b&l超级&7碳压机"
+    lore:
+      - "&7一个更快的碳压机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: CARBON_PRESS
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_ELECTRIC_PRESS:
+  item_group: rsc_example_sub_group
+  item:
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQ1Y2Y5MmJjNzllYzE5ZjQxMDY0NDFhZmZmZjE0MDZhMTM2NzAxMGRjYWZiMTk3ZGQ5NGNmY2ExYTZkZTBmYyJ9fX0=
+    name: "&b&l超级&7压缩机"
+    lore:
+      - "&7一个更快的压缩机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: ELECTRIC_PRESS
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_ELECTRIC_CRUCIBLE:
+  item_group: rsc_example_sub_group
+  item:
+    material: red_terracotta
+    name: "&b&l超级&7坩埚"
+    lore:
+      - "&7一个更快的坩埚"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: ELECTRIC_CRUCIBLE
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_FOOD_FABRICATOR:
+  item_group: rsc_example_sub_group
+  item:
+    material: green_stained_glass
+    name: "&b&l超级&7食品加工机"
+    lore:
+      - "&7一个更快的食品加工机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: FOOD_FABRICATOR
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_HEATED_PRESSURE_CHAMBER:
+  item_group: rsc_example_sub_group
+  item:
+    material: light_gray_stained_glass
+    name: "&b&l超级&7加热压力舱"
+    lore:
+      - "&7一个更快的加热压力舱"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: HEATED_PRESSURE_CHAMBER
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_AUTO_ENCHANTER:
+  item_group: rsc_example_sub_group
+  item:
+    material: enchanting_table
+    name: "&b&l超级&7自动附魔机"
+    lore:
+      - "&7一个更快的自动附魔机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: AUTO_ENCHANTER
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_AUTO_DISENCHANTER:
+  item_group: rsc_example_sub_group
+  item:
+    material: enchanting_table
+    name: "&b&l超级&7自动祛魔机"
+    lore:
+      - "&7一个更快的自动祛魔机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: AUTO_DISENCHANTER
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_BOOK_BINDER:
+  item_group: rsc_example_sub_group
+  item:
+    material: bookshelf
+    name: "&b&l超级&7附魔书整合机"
+    lore:
+      - "&7一个更快的附魔书整合机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: BOOK_BINDER
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_AUTO_ANVIL:
+  item_group: rsc_example_sub_group
+  item:
+    material: IRON_BLOCK
+    name: "&b&l超级&7自动铁砧"
+    lore:
+      - "&7一个更快的自动铁砧"
+      - ""
+      - "&8⇨ &e⚡ &7修理因子: 250"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: AUTO_ANVIL
+  settings:
+    capacity: 5000
+    consumption: 1000
+    repair_factor: 250
+RSC_EXAMPLE_ADVANCED_AUTO_DRIER:
+  item_group: rsc_example_sub_group
+  item:
+    material: smoker
+    name: "&b&l超级&7自动烘干机"
+    lore:
+      - "&7一个更快的自动烘干机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: AUTO_DRIER
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_AUTO_BREWER:
+  item_group: rsc_example_sub_group
+  item:
+    material: smoker
+    name: "&b&l超级&7自动酿造机"
+    lore:
+      - "&7一个更快的自动酿造机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: AUTO_BREWER
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_REFINERY:
+  item_group: rsc_example_sub_group
+  item:
+    material: piston
+    name: "&b&l超级&7炼油机"
+    lore:
+      - "&7一个更快的炼油机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: REFINERY
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
+RSC_EXAMPLE_ADVANCED_PRODUCE_COLLECTOR:
+  item_group: rsc_example_sub_group
+  item:
+    material: hay_block
+    name: "&b&l超级&7全自动收集机"
+    lore:
+      - "&7一个更快的全自动收集机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: 50x"
+      - "&8⇨ &e⚡ &71,000 J/s"
+  type: PRODUCE_COLLECTOR
+  settings:
+    capacity: 5000
+    consumption: 1000
+    speed: 50
