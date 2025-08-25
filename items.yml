@@ -756,3 +756,9 @@ RSC_EXAMPLE_UNFINISHED_ITEM_1:
     material: bedrock
   register:
     unfinished: true
+
+RSC_EXAMPLE_ORE_1:
+  item_group: rsc_example_sub_group
+  item:
+    name: "&e自然生成矿石"
+    material: NETHER_QUARTZ_ORE

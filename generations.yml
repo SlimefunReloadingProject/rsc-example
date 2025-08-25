@@ -1,0 +1,13 @@
+# RykenSlimeCustomizer Wiki: https://rsc.hiworldmc.com/#/file/generations
+RSC_EXAMPLE_GENERATION:
+  slimefun_id: "RSC_EXAMPLE_ORE_1"
+  areas:
+    1:
+      maxHeight: 64
+      minHeight: 16
+      most: 50
+      amount: 6
+      maxSize: 12
+      minSize: 4
+      replacement: stone
+      environment: NORMAL
